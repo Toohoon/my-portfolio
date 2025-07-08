@@ -1,0 +1,104 @@
+/* 整体容器 */
+.resume-container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+  color: #f1f1f1;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+/* 大标题 */
+.resume-title {
+  font-size: 48px;
+  color: #4CAF50;
+  margin-bottom: 40px;
+}
+
+/* 卡片统一样式 */
+.resume-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* 简历信息网格 */
+.resume-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+  justify-items: start;
+}
+
+/* 单条信息 */
+.resume-item {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* 标签 */
+.label {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+/* 分隔线 */
+.divider {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 40px 0;
+}
+
+/* 兴趣标题 */
+.section-title {
+  font-size: 28px;
+  color: #4CAF50;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* 兴趣内容段落 */
+.resume-paragraph {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #ddd;
+}
+
+/* 按钮 */
+.btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+.experience-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.experience-list li {
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+.exp-year {
+  color: #4CAF50;
+  font-weight: bold;
+  display: inline-block;
+  width: 130px;
+}
