@@ -59,6 +59,11 @@ function App() {
         查看我的简历
       </Link>
 
+      <Link to="/chat" className="btn">
+        和 AI 聊一聊
+      </Link>
+
+
       <div className="quote-box">
         <div key={quoteKey} className="fade-quote">
           <p className="quote-text">“{quote}”</p>
