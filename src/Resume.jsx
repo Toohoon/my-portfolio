@@ -9,7 +9,7 @@ function Resume() {
       <div className="resume-card">
         <div className="resume-grid">
           <div className="resume-item"><span className="label">姓名：</span> 郑斗薰</div>
-                    <div className="resume-item"><span className="label">身份：</span> 大三在读</div>
+          <div className="resume-item"><span className="label">身份：</span> 大三在读</div>
           <div className="resume-item"><span className="label">学校：</span> 北京大学</div>
           <div className="resume-item"><span className="label">专业：</span> 计算机科学与技术</div>
           <div className="resume-item"><span className="label">爱好：</span> 健身、看球、柔道</div>
