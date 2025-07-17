@@ -52,8 +52,8 @@ function App() {
         className="avatar"
       />
       <h1>Hello World</h1>
-      <p>我是喜欢代码的郑斗薰</p>
-      <p>Contact Me: jungtoohoon@gmail.com</p>
+      <h2>我是 郑斗薰 정두훈 Luke Jung</h2>
+      <p>Contact Me: lukejung0328@gmail.com</p>
 
       <Link to="/resume" className="btn">
         查看我的简历

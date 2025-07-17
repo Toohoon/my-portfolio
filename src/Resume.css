@@ -82,6 +82,8 @@
 .btn:hover {
   background-color: #45a049;
 }
+
+/* 经历列表 */
 .experience-list {
   list-style: none;
   padding: 0;
@@ -91,14 +93,19 @@
   line-height: 1.8;
 }
 
+/* 经历每项：左右对齐 + 垂直居中 */
 .experience-list li {
+  display: flex;
+  align-items: baseline; /* ✅ 关键点：文字基线对齐 */
   margin-bottom: 10px;
   color: #ddd;
 }
 
+/* 左侧时间：固定宽度 + 不换行 */
 .exp-year {
   color: #4CAF50;
   font-weight: bold;
-  display: inline-block;
-  width: 130px;
+  min-width: 160px;
+  flex-shrink: 0;
+  white-space: nowrap;
 }

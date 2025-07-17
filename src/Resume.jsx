@@ -9,12 +9,14 @@ function Resume() {
       <div className="resume-card">
         <div className="resume-grid">
           <div className="resume-item"><span className="label">姓名：</span> 郑斗薰</div>
+          <div className="resume-item"><span className="label">性别·：</span> 男</div>
           <div className="resume-item"><span className="label">身份：</span> 大三在读</div>
+          <div className="resume-item"><span className="label">国籍：</span> 韩国</div>
           <div className="resume-item"><span className="label">学校：</span> 北京大学</div>
           <div className="resume-item"><span className="label">专业：</span> 计算机科学与技术</div>
           <div className="resume-item"><span className="label">爱好：</span> 健身、看球、柔道</div>
           <div className="resume-item"><span className="label">技能：</span> C & C++、JavaScript</div>
-          <div className="resume-item"><span className="label">Email：</span> jungtoohoon@gmail.com</div>
+          <div className="resume-item"><span className="label">Email：</span> lukejung0328@gmail.com</div>
           <div className="resume-item"><span className="label">支持的球队：</span> 阿森纳</div>
         </div>
       </div>
@@ -27,6 +29,7 @@ function Resume() {
           <li><span className="exp-year">2021-2022</span>　北京大学 信息科学技术学院 大一</li>
           <li><span className="exp-year">2022-2024</span>　休学，服兵役，服役于 Defense Security Agency (DSA)</li>
           <li><span className="exp-year">2024-至今</span>　继续学业，北京大学 信息科学技术学院</li>
+          <li><span className="exp-year">2025 下学期</span>　担任北京大学社团韩语讲堂的辅助教师</li>
         </ul>
       </div>
 
